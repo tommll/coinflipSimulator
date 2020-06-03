@@ -18,5 +18,4 @@ button.addEventListener('click', () => {
 	}
 	result_tail.textContent = tails;
 	result_head.textContent = heads;
-  input.value = '';
 })
