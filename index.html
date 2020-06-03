@@ -1,45 +1,34 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <title>A social news web page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen"/> 
 </head>
-
 <body>
-  <div class="container">
-
-    <!-- Bootstrap navigation bar -->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-          <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> PubLink</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <button type="button" id="submitButton" class="btn btn-default navbar-btn">Submit</button>
-          <p class="navbar-text navbar-right">A social news web page built with ❤ and JavaScript</p>
-        </div>
-      </div>
-    </nav>
-
-    <div id="content">
-      <!-- Dynamic content goes here -->
-      
-    </div>
-
-  </div>
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<div class='console'>
+		<div class='console-input-field'>
+			<h2 class='console-input-header'>How many flips?</h2>
+			<input class='console-input-input' placeholder="10-1000">
+		<button type='submit' class='orange-button'>Start Flipping</button>
+		</div>
+		<div class='console-output'>
+			<h3 class='console-output-header'>RESULTS</h3>
+			<div class='console-output-values'>
+				<div class='console-output-value-head result-column'>
+					<h3 class='console-output-head--name result-name'>Heads: </h3>
+					<p class='console-output-head--value result-value'></p>
+				</div>
+				<div class='console-output-value-tail result-column'>
+					<h3 class='console-output-tail--name result result-name'>Tails: </h3>
+					<p class='console-output-tail--value result-value'></p>
+				</div>
+			</div>
+		</div>
+</div>
+			
+	
 </body>
-
 </html>
