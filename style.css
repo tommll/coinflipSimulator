@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+}
+
+.console{
+    background: var(--light-grey);
+    padding: 1rem;
+    width: 20rem;
+	margin: 0 auto;
+}
+
+
+.console-input-field {
+	border: none;
+}
+
+.console-input-header {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.console-input-input {
+	flex-grow: 1;
+	flex-shrink: 1;
+	width: 8rem;
+	height: 1.2rem;
+	background: white;
+	border: 1px solid grey;
+	padding: 0.2rem;
+	margin-right: 0.5rem;
+}
+
+.console-output {
+    margin-top: 20px;
+}
+
+.console-output-values {
+    display: flex;
+    flex-direction: row;
+}
+
+.result-column {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.orange-button{
+    background-color: #ffbd69 ;
+    box-shadow: 0 4px #d19c57;
+    margin: 0 auto;
+}
+
+.orange-button:hover{
+    box-shadow: 0 2px #d19c57;
+}
+
+.orange-button:active{
+    box-shadow: 0 0 #d19c57;
+}
